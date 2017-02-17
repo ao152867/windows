@@ -26,7 +26,7 @@
     </item>
     
     <item>
-      <title>Windows_7.iso update</title>
+      <title>Windows7 iso update</title>
       <link>https://ao152867.github.io/windows/windows-7/win7-iso-update/</link>
       <pubDate>Fri, 17 Feb 2017 11:17:50 +0200</pubDate>
       
@@ -173,7 +173,8 @@ Windows 7 iso can be found directly from Microsoft.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /Image:X:\win7\offline /Add‐Package /PackagePath:X:\updates\Windows6.1‐KB3020369‐x64.msu
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;For the updates provided in this guide just replace &lt;code&gt;KB3020369&lt;/code&gt; with the name of each update. However, be aware that not all updates have the same naming convention. e.g. &lt;code&gt;AMD64-all-windows6.1-kb3125574-v4-x64_2dafb1d203c8964239af3048b5dd4b1264cd93b9.msu&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;For the updates provided in this guide just replace &lt;code&gt;KB3020369&lt;/code&gt; with the name of each update. However, be aware that not all updates have the same naming convention.&lt;br /&gt;
+e.g. &lt;a href=&#34;http://www.catalog.update.microsoft.com/search.aspx?q=kb3125574&#34;&gt;KB3125574&lt;/a&gt; (&lt;a href=&#34;https://support.microsoft.com/en-us/help/3125574/convenience-rollup-update-for-windows-7-sp1-and-windows-server-2008-r2-sp1&#34;&gt;Convenience rollup&lt;/a&gt;) - Has a filename so long and convoluted that it broke this page the first time I published it. Its name &amp;ldquo;AMD64-all-&amp;hellip;..d93b9.msu&amp;rdquo;, as you can see is completely different.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;images/add-packages.png&#34; alt=&#34;Adding packages to Windows&#34; /&gt;&lt;/p&gt;
 
