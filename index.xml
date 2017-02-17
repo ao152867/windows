@@ -83,13 +83,13 @@ Windows 7 iso can be found directly from Microsoft.&lt;/p&gt;
 
 &lt;h3 id=&#34;preparation&#34;&gt;Preparation&lt;/h3&gt;
 
-&lt;h5 id=&#34;waik-installation&#34;&gt;WAIK installation&lt;/h5&gt;
+&lt;h4 id=&#34;waik-installation&#34;&gt;WAIK installation&lt;/h4&gt;
 
 &lt;p&gt;Mount the ISO (you can just double click on it in Windows 10) then click on the installer &lt;strong&gt;StartCD.exe&lt;/strong&gt;.&lt;/p&gt;
 
 &lt;p&gt;Select &lt;strong&gt;Windows AIK Setup&lt;/strong&gt; once installed exit out of the program.&lt;/p&gt;
 
-&lt;h5 id=&#34;file-structure&#34;&gt;File structure&lt;/h5&gt;
+&lt;h4 id=&#34;file-structure&#34;&gt;File structure&lt;/h4&gt;
 
 &lt;p&gt;Create two directories (folders) &lt;code&gt;X:\win7&lt;/code&gt; and &lt;code&gt;X:\updates&lt;/code&gt;.&lt;/p&gt;
 
@@ -106,7 +106,7 @@ Windows 7 iso can be found directly from Microsoft.&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;mkdir X:\win7
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h5 id=&#34;file-extraction&#34;&gt;File extraction&lt;/h5&gt;
+&lt;h4 id=&#34;file-extraction&#34;&gt;File extraction&lt;/h4&gt;
 
 &lt;p&gt;Mount the Windows 7 iso image then drag and drop all content into &lt;code&gt;X:\win7&lt;/code&gt;.&lt;/p&gt;
 
@@ -122,7 +122,7 @@ Windows 7 iso can be found directly from Microsoft.&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;h5 id=&#34;get-wiminfo&#34;&gt;Get-WIMInfo&lt;/h5&gt;
+&lt;h4 id=&#34;get-wiminfo&#34;&gt;Get-WIMInfo&lt;/h4&gt;
 
 &lt;p&gt;First we need to find out the name of our Windows 7 version, to do so run the following command:&lt;/p&gt;
 
@@ -140,14 +140,14 @@ Windows 7 iso can be found directly from Microsoft.&lt;/p&gt;
 
 &lt;p&gt;This displays, among other details, the names available on the installation disk. We&amp;rsquo;ll be using &lt;code&gt;Name : Windows 7 Professional N&lt;/code&gt;. Write down the one that is appropriate for you.&lt;/p&gt;
 
-&lt;h5 id=&#34;offline-directory&#34;&gt;offline directory&lt;/h5&gt;
+&lt;h4 id=&#34;offline-directory&#34;&gt;offline directory&lt;/h4&gt;
 
 &lt;p&gt;Create a new directory named offline in the Windows 7 directory.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;mkdir X:\win7\offline
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h5 id=&#34;mount-wim&#34;&gt;Mount-WIM&lt;/h5&gt;
+&lt;h4 id=&#34;mount-wim&#34;&gt;Mount-WIM&lt;/h4&gt;
 
 &lt;p&gt;This will place the necessary Windows files in the &lt;code&gt;offline&lt;/code&gt; directory:&lt;/p&gt;
 
@@ -164,7 +164,7 @@ Windows 7 iso can be found directly from Microsoft.&lt;/p&gt;
 &lt;/div&gt;
 
 
-&lt;h5 id=&#34;install-updates&#34;&gt;Install updates&lt;/h5&gt;
+&lt;h4 id=&#34;install-updates&#34;&gt;Install updates&lt;/h4&gt;
 
 &lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Whilst not required it is recommended to install from oldest to newest.&lt;/p&gt;
 &lt;/div&gt;
@@ -178,7 +178,7 @@ e.g. &lt;a href=&#34;http://www.catalog.update.microsoft.com/search.aspx?q=kb312
 
 &lt;p&gt;&lt;img src=&#34;images/add-packages.png&#34; alt=&#34;Adding packages to Windows&#34; /&gt;&lt;/p&gt;
 
-&lt;h5 id=&#34;unmount-wim&#34;&gt;Unmount-WIM&lt;/h5&gt;
+&lt;h4 id=&#34;unmount-wim&#34;&gt;Unmount-WIM&lt;/h4&gt;
 
 &lt;p&gt;We&amp;rsquo;ll be unmounting the image now but before doing that we&amp;rsquo;ll commit all changes:&lt;/p&gt;
 
@@ -200,7 +200,9 @@ e.g. &lt;a href=&#34;http://www.catalog.update.microsoft.com/search.aspx?q=kb312
 &lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;&#39;C:\Program Files\Windows AIK\Tools\amd64\oscdimg.exe&#39; -m -u2 -bX:\win7\boot\etfsboot.com X:\win7 X:\Windows7Updated.iso
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;If you&amp;rsquo;re using a different architecture &lt;code&gt;ia64&lt;/code&gt; or &lt;code&gt;x86&lt;/code&gt; either change the &lt;code&gt;amd64&lt;/code&gt; to match your architecture or start Windows AIK through the Start menu: &lt;code&gt;Start -&amp;gt; Microsoft Windows AIK -&amp;gt; Deployment Tools Command Prompt&lt;/code&gt; requires admin rights and run the command &lt;code&gt;oscdimg&lt;/code&gt; with its flags.&lt;/p&gt;
+&lt;p&gt;If you&amp;rsquo;re using a different architecture &lt;code&gt;ia64&lt;/code&gt; or &lt;code&gt;x86&lt;/code&gt; either change the &lt;code&gt;amd64&lt;/code&gt; to match your architecture or start Windows AIK through the Start menu (this will run in a Command Prompt):&lt;br /&gt;
+Start &amp;ndash;&amp;gt; Microsoft Windows AIK &amp;ndash;&amp;gt; Deployment Tools Command Prompt&lt;br /&gt;
+This requires admin rights and run the command &lt;code&gt;oscdimg&lt;/code&gt; with its flags and arguments.&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;images/oscdimg.png&#34; alt=&#34;oscdimg with flags to create new iso&#34; /&gt;&lt;/p&gt;
 
@@ -210,12 +212,16 @@ e.g. &lt;a href=&#34;http://www.catalog.update.microsoft.com/search.aspx?q=kb312
 
 &lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
 
-&lt;p&gt;If you mess up somewhere in the middle of the whole process and would like to start all over again.&lt;/p&gt;
+&lt;h4 id=&#34;start-fresh-with-discard&#34;&gt;Start fresh with Discard&lt;/h4&gt;
+
+&lt;p&gt;If you mess up somewhere in along the line and would like to start all over again.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /unmount-Wim /MountDir:X:\win7\offline /Discard
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;This will unmount the image and discard all changes.&lt;/p&gt;
+&lt;p&gt;This will unmount the image and discard all changes. Remember to change the path of the files if you aren&amp;rsquo;t using &lt;code&gt;X:\win7\offline&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&#34;getting-rid-of-stubborn-files&#34;&gt;Getting rid of stubborn files&lt;/h4&gt;
 
 &lt;p&gt;If you aren&amp;rsquo;t allowed to delete the &lt;code&gt;X:\win7\offline&lt;/code&gt; directory and its content try running:&lt;/p&gt;
 
