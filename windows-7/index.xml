@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows-7-rsses on My New Hugo Site</title>
+    <link>https://ao152867.github.io/windows/windows-7/index.xml</link>
+    <description>Recent content in Windows-7-rsses on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 17 Feb 2017 11:17:14 +0200</lastBuildDate>
+    <atom:link href="https://ao152867.github.io/windows/windows-7/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Windows 7</title>
+      <link>https://ao152867.github.io/windows/windows-7/</link>
+      <pubDate>Fri, 17 Feb 2017 11:17:14 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/windows/windows-7/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-i&#34;&gt;Chapter I&lt;/h3&gt;
+
+&lt;h1 id=&#34;windows-7-guide&#34;&gt;Windows 7 guide&lt;/h1&gt;
+
+&lt;p&gt;How to update the Windows 7 .iso&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Windows_7.iso update</title>
+      <link>https://ao152867.github.io/windows/windows-7/win7-iso-update/</link>
+      <pubDate>Fri, 17 Feb 2017 11:17:50 +0200</pubDate>
+      
+      <guid>https://ao152867.github.io/windows/windows-7/win7-iso-update/</guid>
+      <description>
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;h3 id=&#34;programs&#34;&gt;Programs&lt;/h3&gt;
+
+&lt;p&gt;Windows AIK (KB3AIK_EN.iso) &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=5753&#34;&gt;https://www.microsoft.com/en-us/download/details.aspx?id=5753&lt;/a&gt;&lt;br /&gt;
+Windows 7 iso can be found directly from Microsoft.&lt;/p&gt;
+
+&lt;h3 id=&#34;required-if-on-older-os&#34;&gt;Required if on older OS&lt;/h3&gt;
+
+&lt;p&gt;Virtual CD-ROM Control Panel &lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=38780&#34;&gt;https://www.microsoft.com/en-us/download/details.aspx?id=38780&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;updates&#34;&gt;Updates&lt;/h3&gt;
+
+&lt;p&gt;Download them all into a new directory e.g. &lt;code&gt;X:\updates&lt;/code&gt;&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Update&lt;/th&gt;
+&lt;th&gt;Details&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=46817&#34;&gt;KB3020369&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://support.microsoft.com/en-gb/help/3020369/april-2015-servicing-stack-update-for-windows-7-and-windows-server-2008-r2&#34;&gt;April 2015 servicing stack update for Windows 7&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=49540&#34;&gt;KB3102810&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://support.microsoft.com/en-gb/help/3102810/installing-and-searching-for-updates-is-slow-and-high-cpu-usage-occurs-in-windows-7-and-windows-server-2008-r2&#34;&gt;Installing and searching for updates is slow and high CPU usage occurs in Windows 7&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=52232&#34;&gt;KB3153199&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://support.microsoft.com/en-gb/help/3153199/ms16-062-description-of-the-security-update-for-windows-kernel-mode-drivers-may-10,-2016&#34;&gt;Security update MS16-062&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;&lt;a href=&#34;https://www.microsoft.com/en-us/download/details.aspx?id=51212&#34;&gt;KB3138612&lt;/a&gt;&lt;/td&gt;
+&lt;td&gt;&lt;a href=&#34;https://support.microsoft.com/en-gb/help/3138612/windows-update-client-for-windows-7-and-windows-server-2008-r2-march-2016&#34;&gt;Update Client for Windows 7&lt;/a&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;instructions&#34;&gt;Instructions&lt;/h2&gt;
+
+&lt;h3 id=&#34;preparation&#34;&gt;Preparation&lt;/h3&gt;
+
+&lt;h5 id=&#34;waik-installation&#34;&gt;WAIK installation&lt;/h5&gt;
+
+&lt;p&gt;Mount the ISO (you can just double click on it in Windows 10) then click on the installer &lt;strong&gt;StartCD.exe&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Select &lt;strong&gt;Windows AIK Setup&lt;/strong&gt; once installed exit out of the program.&lt;/p&gt;
+
+&lt;h5 id=&#34;file-structure&#34;&gt;File structure&lt;/h5&gt;
+
+&lt;p&gt;Create two directories (folders) &lt;code&gt;X:\win7&lt;/code&gt; and &lt;code&gt;X:\updates&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/dirs-in-explorer.png&#34; alt=&#34;Directories shown in Windows Explorer&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;If you don&amp;rsquo;t have an &lt;code&gt;X:&lt;/code&gt; drive then just create them in a drive that you do have access to (e.g. C:) and use directory names that make sense to you.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;You can create them on the command-line with the &lt;code&gt;mkdir&lt;/code&gt; command:&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;mkdir X:\win7
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;file-extraction&#34;&gt;File extraction&lt;/h5&gt;
+
+&lt;p&gt;Mount the Windows 7 iso image then drag and drop all content into &lt;code&gt;X:\win7&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;dism&#34;&gt;Dism&lt;/h3&gt;
+
+&lt;p&gt;Deployment Image Servicing and Management is the program that will allow us to update our install disc.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://technet.microsoft.com/en-us/library/hh825236.aspx&#34;&gt;What is DISM?&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Open up PowerShell with administrative privileges (Run as Administrator).&lt;/p&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;I tried this with a Command Prompt with administrative privileges and on the first computer I tried it on it worked. On the second and third that I tried it on it gave me a ton of error codes (3, 87, 161, etc.) and going through the log file I found a bunch of failures due to what it claimed were missing DLLs (SiloedPackageProvider.dll) and not to mention claims of missing directories that were in fact there (X:\win7\offline\Windows). So, just try with PowerShell. It&amp;rsquo;s a lot nicer than the Command Prompt anyway.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h5 id=&#34;get-wiminfo&#34;&gt;Get-WIMInfo&lt;/h5&gt;
+
+&lt;p&gt;First we need to find out the name of our Windows 7 version, to do so run the following command:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /Get-WIMInfo /WimFile:X:\win7\sources\install.wim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/mkdir.png&#34; alt=&#34;mkdir&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;At the end of this page you&amp;rsquo;ll find a list of all commands. If you&amp;rsquo;re not using the default locations &lt;code&gt;X:\win7&lt;/code&gt; and &lt;code&gt;X:\updates&lt;/code&gt; then stick the list in a text editor and replace all instances of both of those with the paths you are using.&lt;br /&gt;
+&lt;strong&gt;Also&lt;/strong&gt; on the last command change the final destination for your .iso.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;img src=&#34;images/wiminfo.png&#34; alt=&#34;Get-WIMInfo&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This displays, among other details, the names available on the installation disk. We&amp;rsquo;ll be using &lt;code&gt;Name : Windows 7 Professional N&lt;/code&gt;. Write down the one that is appropriate for you.&lt;/p&gt;
+
+&lt;h5 id=&#34;offline-directory&#34;&gt;offline directory&lt;/h5&gt;
+
+&lt;p&gt;Create a new directory named offline in the Windows 7 directory.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;mkdir X:\win7\offline
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h5 id=&#34;mount-wim&#34;&gt;Mount-WIM&lt;/h5&gt;
+
+&lt;p&gt;This will place the necessary Windows files in the &lt;code&gt;offline&lt;/code&gt; directory:&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;Be sure to change the name to match that of your version.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /Mount‐WIM /WimFile:X:\win7\sources\install.wim /Name:&amp;quot;Windows 7 Professional N&amp;quot; /MountDir:X:\win7\offline
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/mount-wim.png&#34; alt=&#34;Mount-WIM&#34; /&gt;&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Instead of the /Name:&amp;ldquo;Windows 7 Professional N&amp;rdquo; option you can use the /Index:3 option, which is a lot easier.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h5 id=&#34;install-updates&#34;&gt;Install updates&lt;/h5&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Whilst not required it is recommended to install from oldest to newest.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /Image:X:\win7\offline /Add‐Package /PackagePath:X:\updates\Windows6.1‐KB3020369‐x64.msu
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For the updates provided in this guide just replace &lt;code&gt;KB3020369&lt;/code&gt; with the name of each update. However, be aware that not all updates have the same naming convention. e.g. &lt;code&gt;AMD64-all-windows6.1-kb3125574-v4-x64_2dafb1d203c8964239af3048b5dd4b1264cd93b9.msu&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/add-packages.png&#34; alt=&#34;Adding packages to Windows&#34; /&gt;&lt;/p&gt;
+
+&lt;h5 id=&#34;unmount-wim&#34;&gt;Unmount-WIM&lt;/h5&gt;
+
+&lt;p&gt;We&amp;rsquo;ll be unmounting the image now but before doing that we&amp;rsquo;ll commit all changes:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /Unmount‐WIM /MountDir:X:\win7\offline /Commit
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/unmount-wim.png&#34; alt=&#34;Unmount-WIM&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now create an image from the newly updated Windows 7 files.&lt;/p&gt;
+
+&lt;p&gt;Either change directory to where the command is then execute the command with its flags:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;cd &#39;C:\Program Files\Windows AIK\Tools\amd64&#39;
+.\oscdimg -m -u2 -bX:\win7\boot\etfsboot.com X:\win7 X:\Windows7Updated.iso
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Or type the full path to the program with its flags.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;&#39;C:\Program Files\Windows AIK\Tools\amd64\oscdimg.exe&#39; -m -u2 -bX:\win7\boot\etfsboot.com X:\win7 X:\Windows7Updated.iso
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;If you&amp;rsquo;re using a different architecture &lt;code&gt;ia64&lt;/code&gt; or &lt;code&gt;x86&lt;/code&gt; either change the &lt;code&gt;amd64&lt;/code&gt; to match your architecture or start Windows AIK through the Start menu: &lt;code&gt;Start -&amp;gt; Microsoft Windows AIK -&amp;gt; Deployment Tools Command Prompt&lt;/code&gt; requires admin rights and run the command &lt;code&gt;oscdimg&lt;/code&gt; with its flags.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/oscdimg.png&#34; alt=&#34;oscdimg with flags to create new iso&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/iso-in-explorer.png&#34; alt=&#34;ISO listed in Explorer&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Now you&amp;rsquo;re ready to burn your .iso to a DVD/USB or use in a virtual machine. You can now delete the &lt;code&gt;X:\win7&lt;/code&gt; and &lt;code&gt;X:\updates&lt;/code&gt; directories.&lt;/p&gt;
+
+&lt;h3 id=&#34;troubleshooting&#34;&gt;Troubleshooting&lt;/h3&gt;
+
+&lt;p&gt;If you mess up somewhere in the middle of the whole process and would like to start all over again.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /unmount-Wim /MountDir:X:\win7\offline /Discard
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This will unmount the image and discard all changes.&lt;/p&gt;
+
+&lt;p&gt;If you aren&amp;rsquo;t allowed to delete the &lt;code&gt;X:\win7\offline&lt;/code&gt; directory and its content try running:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /cleanup-wim
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This should search your computer for stale or corrupted files and clean them up.&lt;/p&gt;
+
+&lt;p&gt;After this you should be able to delete &lt;code&gt;X:\win7&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.msigeek.com/2635/unmount-and-clean-up-a-wim-image-using-deployment-image-servicing-and-management-dism&#34;&gt;https://www.msigeek.com/2635/unmount-and-clean-up-a-wim-image-using-deployment-image-servicing-and-management-dism&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;all-commands-list&#34;&gt;All commands list&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bat&#34;&gt;Dism /Get-WIMInfo /WimFile:X:\win7\sources\install.wim
+mkdir X:\win7\offline
+Dism /Mount‐WIM /WimFile:X:\win7\sources\install.wim /Name:&amp;quot;Windows 7 Professional N&amp;quot; /MountDir:X:\win7\offline
+Dism /Image:X:\win7\offline /Add‐Package /PackagePath:X:\updates\Windows6.1‐KB3020369‐x64.msu
+Dism /Unmount‐WIM /MountDir:X:\win7\offline /Commit
+&#39;C:\Program Files\Windows AIK\Tools\amd64\oscdimg.exe&#39; -m -u2 -bX:\win7\boot\etfsboot.com X:\win7 X:\Windows7Updated.iso
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
